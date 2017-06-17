@@ -4,6 +4,8 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('table/css/jquery.dataTables.css') }}">
     <link rel="stylesheet" href="{{ asset('table/css/dataTables.bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/selectize.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/selectize.bootstrap3.css') }}">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -94,6 +96,7 @@
     <script src="/js/app.js"></script>
     <script src="{{ asset('table/js/jquery.dataTables.min.js') }}"></script>
     <script src="{{ asset('table/js/dataTables.bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/selectize.min.js') }}"></script>
     <script src="/js/custom.js"></script>
     @yield('scripts')
 </body>
