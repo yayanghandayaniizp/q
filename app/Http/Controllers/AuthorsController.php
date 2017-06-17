@@ -115,4 +115,5 @@ class AuthorsController extends Controller
             "message"=>"Penulis Berhasil Dihapus"]);
         return redirect()->route('authors.index');
     }
+
 }

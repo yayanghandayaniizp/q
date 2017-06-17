@@ -7,7 +7,7 @@
 				<li><a href="{{ url('/home') }}">Dashboard</a></li>
 				<li class="active">Buku</li>
 			</ul>
-			<div class="panel panel-primary">
+			<div class="panel panel-default">
 				<div class="panel-heading">
 					<h2 class="panel-title">Buku</h2>
 				</div>
