@@ -101,11 +101,7 @@
     <script src="/js/app.js"></script>
     <script src="{{ asset('table/js/jquery.dataTables.min.js') }}"></script>
     <script src="{{ asset('table/js/dataTables.bootstrap.min.js') }}"></script>
-<<<<<<< HEAD
-    <script src="/js/selectize.min.js"></script>
-=======
     <script src="{{ asset('js/selectize.min.js') }}"></script>
->>>>>>> b4196be09117dab5d01105c295d7b073d6429004
     <script src="/js/custom.js"></script>
     @yield('scripts')
 </body>
