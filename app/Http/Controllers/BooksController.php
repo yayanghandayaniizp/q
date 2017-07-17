@@ -194,6 +194,6 @@ class BooksController extends Controller
             "level"=>"success",
             "message"=>"Berhasil Mengembalikan ".$borrowLog->book->title ]);
         }
-        return redirect('/home');
+        return redirect('/');
     }
 }

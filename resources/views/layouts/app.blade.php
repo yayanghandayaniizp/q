@@ -56,6 +56,8 @@
                         @role('admin')
                             <li><a href="{{ route('authors.index') }}">Penulis</a></li>
                             <li><a href="{{ route('books.index') }}">Buku</a></li>
+                            <li><a href="{{ route('members.index') }}">Member</a></li>
+                            <li><a href="{{ route('statistics.index') }}">Statistic</a></li>
                         @endrole
                     </ul>
 
