@@ -5,12 +5,10 @@ $(document).ready(function() {
 		var c = confirm(text);
 		return c;
 	});
-<<<<<<< HEAD
+
 	$('js-selectize').selectize({
 		sortfield:'text'
-=======
 	$('.js-selectize').selectize({
 		sortField:'text'
->>>>>>> b4196be09117dab5d01105c295d7b073d6429004
 	});
 });

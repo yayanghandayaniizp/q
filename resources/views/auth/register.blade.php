@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
+            <div class="panel panel-primary">
                 <div class="panel-heading">Register</div>
                 <div class="panel-body">
                     {!! Form::open(['url'=>'/register', 'class'=>'form-horizontal']) !!}
@@ -34,6 +34,12 @@
                         <div class="col-md-6">
                             {!! Form::password('password_confirmation',['class'=>'form-control']) !!}
                             {!! $errors->first('password_confirmation','<p class="help-block">:message</p>') !!}
+                        </div>
+                    </div>
+                    <div class="form-group{{ $errors->has('g-recaptcha-response') ? 'has-error' : '' }}">
+                        <div class="col-md-6 col-md-offset-4">
+                            {!! app('captcha')->display() !!}
+                            {!! $errors->first('g-recaptcha-response','<p class="help-block">:message</p>') !!}
                         </div>
                     </div>
                     <div class="form-group">
